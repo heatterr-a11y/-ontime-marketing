@@ -1,8 +1,22 @@
 {
-  "name": "OnTime Pitch Deck",
+  "name": "OnTime Marketing",
   "short_name": "OnTime",
-  "start_url": ".",
+  "description": "Synchronize intent, decision, and outcome in real time — make latency obsolete.",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000"
+  "background_color": "#0b0d10",
+  "theme_color": "#00f0ff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
