@@ -1,96 +1,24 @@
-# OnTime Marketing Inc.
+# OnTime Marketing — Temporal Engine
 
-![OnTime Marketing Logo](logo.jpg)
+Legendary interactive pitch deck + marketing site.
 
-**Next-Generation Temporal Intent Synchronization**
+## Features
 
-[![Website](https://img.shields.io/badge/Website-Live-blue)](https://heatterr-a11y.github.io/-ontime-marketing/)
-[![License](https://img.shields.io/badge/License-Proprietary-red)]()
+- Dark/light auto-sync
+- Temporal engine interactive demo
+- Slide deck mode with keyboard navigation
+- Investor-mode toggle & live metrics
+- Narration captions (accessibility)
+- PDF-safe bleed & watermarks
+- Offline PWA-ready with Service Worker
+- Worker.js for background latency calculations
 
-## 🌐 Live Website
+## Usage
 
-**[https://heatterr-a11y.github.io/-ontime-marketing/](https://heatterr-a11y.github.io/-ontime-marketing/)**
+```bash
+# Clone repo
+git clone https://github.com/YOURUSERNAME/ontime-marketing.git
+cd ontime-marketing
 
----
-
-## 📋 Overview
-
-OnTime Marketing Inc. pioneers the future of decentralized coordination through three core technologies:
-
-- **TISE** (Temporal Intent Synchronization Engine)
-- **DTIF** (Decentralized Temporal Intent Framework)
-- **OnTime TIDE** (Temporal Intent Distribution Engine)
-
-Our framework enables real-time synchronization of intent across distributed blockchain networks with millisecond precision.
-
----
-
-## 🚀 Technology Stack
-
-| Component | Description | Status |
-|-----------|-------------|--------|
-| TISE | Core coordination layer for real-time state consensus | ✅ Active |
-| DTIF | Comprehensive framework for temporal applications | ✅ Active |
-| OnTime TIDE | Distribution layer for P2P mesh networking | ✅ Active |
-
----
-
-## 📁 Repository Structure
-
----
-
-## 🛠️ Built With
-
-- **HTML5** - Semantic markup
-- **Tailwind CSS** - Utility-first CSS framework
-- **GSAP** - Professional-grade JavaScript animation
-- **Canvas API** - Particle system animations
-- **GitHub Pages** - Free static hosting
-
----
-
-## 📧 Contact
-
-**Email:** [heat.terr@iCloud.com](mailto:heat.terr@iCloud.com)
-
-**Location:** Global Operations
-
----
-
-## 📝 License
-
-© 2026 OnTime Marketing Inc. All rights reserved.
-
-This project and its contents are proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited.
-
----
-
-## 🙏 Acknowledgments
-
-- Design & Development: OnTime Marketing Inc.
-- Icons: [Heroicons](https://heroicons.com/)
-- Fonts: [Google Fonts](https://fonts.google.com/) (Inter & Space Grotesk)
-
-# OnTime Marketing Inc.
-
-![Logo](logo.jpg)
-
-**Temporal Intent Synchronization Engine**
-
-🌐 **[Live Website](https://heatterr-a11y.github.io/-ontime-marketing/)**
-
-## Our Technologies
-
-| Platform | Description |
-|----------|-------------|
-| **TISE** | Temporal Intent Synchronization Engine |
-| **DTIF** | Decentralized Temporal Intent Framework |
-| **OnTime TIDE** | Temporal Intent Distribution Engine |
-
-## Contact
-
-📧 **heat.terr@iCloud.com**
-
----
-
-© 2026 OnTime Marketing Inc. - All Rights Reserved
+# Serve with a local server (for PWA & workers)
+npx serve .
