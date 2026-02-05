@@ -1,24 +1,18 @@
 # OnTime Marketing — Temporal Engine
 
-Legendary interactive pitch deck + marketing site.
+Interactive PWA + investor deck + temporal engine demo.
 
 ## Features
-
 - Dark/light auto-sync
-- Temporal engine interactive demo
-- Slide deck mode with keyboard navigation
+- Temporal engine demo
+- Slide deck with keyboard nav & narration
 - Investor-mode toggle & live metrics
-- Narration captions (accessibility)
-- PDF-safe bleed & watermarks
-- Offline PWA-ready with Service Worker
-- Worker.js for background latency calculations
+- PDF-safe bleed margins & watermark
+- Offline support (PWA + service worker)
+- Background latency worker
 
-## Usage
-
-```bash
-# Clone repo
-git clone https://github.com/YOURUSERNAME/ontime-marketing.git
-cd ontime-marketing
-
-# Serve with a local server (for PWA & workers)
-npx serve .
+## Deploy
+1. Rename repo to `ontime-marketing`
+2. Push to `main` branch
+3. Enable GitHub Pages → Source: `main` / root
+4. Open `https://USERNAME.github.io/ontime-marketing/`
